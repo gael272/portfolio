@@ -1,0 +1,43 @@
+portfolio:
+  accueil:
+    titre: "Bienvenue sur mon portfolio"
+    description: "Découvrez mon parcours, mes compétences et mes réalisations."
+    image: "accueil.jpg"
+
+  competences:
+    titre: "Compétences"
+    description: "Voici les compétences que j'ai acquises au fil du temps."
+    liste:
+      - nom: "Développement Web"
+        details: "HTML, CSS, JavaScript, PHP"
+      - nom: "Programmation"
+        details: "Python
+      - nom: "Bases de données"
+        details: "MySQL"
+
+  contact:
+    titre: "Contactez-moi"
+    description: "Je suis toujours disponible pour discuter de nouveaux projets ou collaborations."
+    email: "gael.gautier@sts-sio-caen.info"
+    reseaux:
+   - nom: "GitHub"
+        lien: "https://github.com/gael272"
+      
+ formation:
+    titre: "Formation"
+    description: "Mon parcours académique et mes certifications."
+    liste:
+     -  titre: "Bac STMG"
+        etablissement: "Lycée Salvador Allende"
+        annee: "2019-2022"
+     -  titre: "BTS SIO"
+        etablissement: "CaenSup"
+        annee: "2024-2026 (en cours)"
+ 
+  realisations:
+    titre: "Réalisations"
+    description: "Voici mes projets."
+    projets:
+      - nom: ""
+       
+   

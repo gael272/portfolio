@@ -1,0 +1,10 @@
+  competences:
+    titre: "Compétences"
+    description: "Voici les compétences que j'ai acquises au fil du temps."
+    liste:
+      - nom: "Développement Web"
+        details: "HTML, CSS, JavaScript, PHP"
+      - nom: "Programmation"
+        details: "Python
+      - nom: "Bases de données"
+        details: "MySQL"
