@@ -18,11 +18,11 @@
         </nav>
     </header>
 
-    <?php include 'Accueil.php'; ?>
-    <?php include 'Compétences.php'; ?>
-    <?php include 'Formation.php'; ?>
-    <?php include 'Réalisations.php'; ?>
-    <?php include 'Contact.php'; ?>
+    <?php include 'PHP/Accueil.php'; ?>
+    <?php include 'PHP/Compétences.php'; ?>
+    <?php include 'PHP/Formation.php'; ?>
+    <?php include 'PHP/Réalisations.php'; ?>
+    <?php include 'PHP/Contact.php'; ?>
 
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Mon Portfolio</p>
