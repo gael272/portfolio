@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
+
+require_once("DB-YAML\db.yaml");
+$data = yaml_parse_file('portfolio.yaml')
     <header>
         <h1>Mon Portfolio</h1>
         <nav>
