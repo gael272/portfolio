@@ -1,11 +1,11 @@
 titre: Compétences
 domaines:
   - nom: bureautique
-  competences:
-    - nom: word
-    niveau: 100%
-    - nom: excel
-    niveau: 70%
+    competences:
+     - nom: word
+       niveau: 100
+     - nom: excel
+       niveau: 70
   - nom: réseau
-  competences:
+    competences:
       
