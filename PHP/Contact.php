@@ -1,6 +1,5 @@
 <?php
-require_once 'functions/functions.php';
-$data = loadData();
+$data = yaml_parse_file('DB-YAML/contact.yaml');
 ?>
 
 <section id="contact">

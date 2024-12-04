@@ -1,10 +1,11 @@
+titre: Compétences
+domaines:
+  - nom: bureautique
   competences:
-    titre: "Compétences"
-    description: "Voici les compétences que j'ai acquises au fil du temps."
-    liste:
-      - nom: "Développement Web"
-        details: "HTML, CSS, JavaScript, PHP"
-      - nom: "Programmation"
-        details: "Python
-      - nom: "Bases de données"
-        details: "MySQL"
+    - nom: word
+    niveau: 100%
+    - nom: excel
+    niveau: 70%
+  - nom: réseau
+  competences:
+      

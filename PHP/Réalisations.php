@@ -1,6 +1,5 @@
 <?php
-require_once 'functions/functions.php';
-$data = loadData();
+$data = yaml_parse_file('DB-YAML/realisations.yaml');
 ?>
 
 <section id="realisations">
