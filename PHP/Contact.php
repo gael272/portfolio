@@ -3,7 +3,7 @@ $data = yaml_parse_file('DB-YAML/contact.yaml');
 ?>
 
 <section id="contact">
-    <h2><?php echo $data['contact']['title']; ?></h2>
+    <h2><?php echo $data['contact']['titre']; ?></h2>
     <p><?php echo $data['contact']['message']; ?></p>
     <form action="#contact" method="post">
         <label for="name">Nom :</label>

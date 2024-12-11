@@ -11,6 +11,8 @@
 require_once("yaml/yaml.php");
 
 ?>
+
+
     <header>
         <h1>Mon Portfolio</h1>
         <nav>
@@ -21,7 +23,31 @@ require_once("yaml/yaml.php");
             <a href="#contact">Contact</a>
         </nav>
     </header>
-
+    <div class="competences">
+    <h2>Compétences</h2>
+    <ul>
+        <li>Word
+            <div class="skill-bar">
+                <div class="progress" style="width: 100%;">100%</div>
+            </div>
+        </li>
+        <li>Excel
+            <div class="skill-bar">
+                <div class="progress" style="width: 70%;">70%</div>
+            </div>
+        </li>
+        <li>Réseau
+            <div class="skill-bar">
+                <div class="progress" style="width: 50%;">50%</div>
+            </div>
+        </li>
+        <li>Configuration DHCP & Apache
+            <div class="skill-bar">
+                <div class="progress" style="width: 0%;">Non spécifié</div>
+            </div>
+        </li>
+    </ul>
+</div>
     <?php include 'PHP/Accueil.php'; ?>
     <?php include 'PHP/Compétences.php'; ?>
     <?php include 'PHP/Formation.php'; ?>

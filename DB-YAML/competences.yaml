@@ -1,11 +1,17 @@
 titre: Compétences
 domaines:
-  - nom: bureautique
+  - nom: Bureautique
     competences:
-     - nom: word
+     - nom: Word
        niveau: 100
-     - nom: excel
+     - nom: Excel
        niveau: 70
-  - nom: réseau
+  - nom: Réseau
     competences:
+     - nom: Configuration de virtual machine
+       niveau: Non spécifié
+     - nom: Configuration DHCP & APACHE
+       niveau: Non spécifié
+     - nom: Service WEB
+       niveau: Non spécifié
       

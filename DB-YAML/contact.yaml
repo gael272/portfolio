@@ -1,7 +1,7 @@
 contact:
-titre: Contactez-moi
-description: Je suis toujours disponible pour discuter de nouveaux projets ou collaborations.
-email: gael.gautier@sts-sio-caen.info
-reseaux:
-nom: GitHub
-lien: https://github.com/gael272
+  titre: Contactez-moi
+  message: Je suis toujours disponible pour discuter de nouveaux projets ou collaborations.
+  email: gael.gautier@sts-sio-caen.info
+  reseaux:
+    - nom: GitHub
+      lien: https://github.com/gael272

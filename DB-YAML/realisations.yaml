@@ -1,5 +1,8 @@
 realisations:
-titre: Réalisations
-description: Voici mes projets.
-projets:
-nom: 
+  titre: Réalisations
+  description: Voici mes projets.
+  projets:
+    - titre: Projet 1
+      description: Description du premier projet.
+    - titre: Projet 2
+      description: Description du deuxième projet.

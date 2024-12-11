@@ -1,10 +1,10 @@
 formation:
-titre: Formation
-description: Mon parcours académique et mes certifications.
-liste:
-titre: Bac STMG
-etablissement: Lycée Salvador Allende
-annee: 2019-2022
-titre: BTS SIO
-etablissement: CaenSup
-annee: 2024-2026 (en cours)
+  titre: Formation
+  description: Mon parcours académique et mes certifications.
+  liste:
+    - titre: Bac STMG
+      etablissement: Lycée Salvador Allende
+      annee: 2019-2022
+    - titre: BTS SIO
+      etablissement: CaenSup
+      annee: 2024-2026 (en cours)
