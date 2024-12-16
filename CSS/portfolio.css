@@ -7,10 +7,10 @@ body {
     line-height: 1.8;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrer tout le contenu */
+    align-items: center; 
 }
 
-/* Header */
+
 header {
     background: linear-gradient(90deg, #3B5B94, #1E2A47);
     color: white;
@@ -20,20 +20,20 @@ header {
     font-weight: 600;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     letter-spacing: 1.5px;
-    width: 100%; /* Prend toute la largeur */
+    width: 100%; 
 }
 
-/* Navigation */
+
 nav {
     display: flex;
     justify-content: center;
-    gap: 2.5rem; /* Plus d'espace entre les liens */
+    gap: 2.5rem; 
     padding: 1.5rem 0;
     background: rgba(59, 91, 148, 0.1);
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     backdrop-filter: blur(10px);
-    margin-bottom: 3rem; /* Plus d'espace sous le menu */
+    margin-bottom: 3rem; 
     width: 100%;
 }
 
@@ -50,29 +50,29 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* Grid Layout - Sections Centered */
+
 .container {
     display: grid;
-    grid-template-columns: 1fr; /* Une seule colonne */
-    gap: 3rem; /* Augmente l'espace entre les sections */
+    grid-template-columns: 1fr; 
+    gap: 3rem; 
     padding: 2rem 0;
     width: 100%;
-    max-width: 1200px; /* Limite la largeur totale */
+    max-width: 1200px; 
 }
 
 section {
-    width: 100%; /* Remplit le conteneur */
-    max-width: 800px; /* Largeur maximale pour centrer */
+    width: 100%; 
+    max-width: 800px; 
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    padding: 3rem; /* Plus de padding pour aérer */
+    padding: 3rem; 
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     backdrop-filter: blur(10px);
     position: relative;
     overflow: hidden;
-    text-align: center; /* Centre le contenu à l'intérieur */
-    margin: 0 auto; /* Centre horizontalement */
+    text-align: center; 
+    margin: 0 auto; 
 }
 
 section:hover {
@@ -95,21 +95,21 @@ section::before {
 h2 {
     color: #fff;
     font-size: 2.2rem;
-    margin-bottom: 1.5rem; /* Plus d'espace sous le titre */
+    margin-bottom: 1.5rem; 
     border-bottom: 2px solid #3B5B94;
     display: inline-block;
     z-index: 1;
     position: relative;
 }
 
-/* List Styling */
+
 ul {
     list-style: none;
     padding: 0;
 }
 
 ul li {
-    margin-bottom: 1rem; /* Plus d'espace entre les éléments */
+    margin-bottom: 1rem; 
     font-size: 1.2rem;
 }
 
@@ -118,23 +118,23 @@ ul li span {
     color: #3B5B94;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
-    padding: 2rem 0; /* Plus de padding pour aérer */
+    padding: 2rem 0; 
     background: linear-gradient(90deg, #1E2A47, #3B5B94);
     color: white;
     font-size: 1.1rem;
-    margin-top: 3rem; /* Plus d'espace au-dessus du footer */
+    margin-top: 3rem; 
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
     width: 100%;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
-        gap: 1.5rem; /* Aération entre les liens */
+        gap: 1.5rem; 
     }
 
     h2 {
@@ -147,7 +147,7 @@ footer {
 
     section {
         width: 100%;
-        padding: 2rem; /* Aération sur mobile */
+        padding: 2rem; 
     }
 
     ul li {
