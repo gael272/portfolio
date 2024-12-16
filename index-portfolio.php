@@ -1,8 +1,3 @@
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,53 +9,29 @@ ini_set('display_errors', 1);
 <body>
 <?php
 require_once("yaml/yaml.php");
-
 ?>
 
+<header>
+    <h1>Mon Portfolio</h1>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#competences">Compétences</a>
+        <a href="#formation">Formation</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-    <header>
-        <h1>Mon Portfolio</h1>
-        <nav>
-            <a href="#accueil">Accueil</a>
-            <a href="#competences">Compétences</a>
-            <a href="#formation">Formation</a>
-            <a href="#realisations">Réalisations</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <div class="competences">
-    <h2>Compétences</h2>
-    <ul>
-        <li>Word
-            <div class="skill-bar">
-                <div class="progress" style="width: 100%;">100%</div>
-            </div>
-        </li>
-        <li>Excel
-            <div class="skill-bar">
-                <div class="progress" style="width: 70%;">70%</div>
-            </div>
-        </li>
-        <li>Réseau
-            <div class="skill-bar">
-                <div class="progress" style="width: 50%;">50%</div>
-            </div>
-        </li>
-        <li>Configuration DHCP & Apache
-            <div class="skill-bar">
-                <div class="progress" style="width: 0%;">Non spécifié</div>
-            </div>
-        </li>
-    </ul>
-</div>
-    <?php include 'PHP/Accueil.php'; ?>
-    <?php include 'PHP/Compétences.php'; ?>
-    <?php include 'PHP/Formation.php'; ?>
-    <?php include 'PHP/Réalisations.php'; ?>
-    <?php include 'PHP/Contact.php'; ?>
 
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> Mon Portfolio</p>
-    </footer>
+<?php include 'PHP/Accueil.php'; ?>
+<?php include 'PHP/Compétences.php'; ?>
+<?php include 'PHP/Formation.php'; ?>
+<?php include 'PHP/Réalisations.php'; ?>
+<?php include 'PHP/Contact.php'; ?>
+
+<footer>
+    <p>&copy; <?php echo date("Y"); ?> Mon Portfolio</p>
+</footer>
+
 </body>
 </html>
