@@ -8,3 +8,5 @@ formation:
     - titre: BTS SIO
       etablissement: CaenSup
       annee: 2024-2026 (en cours)
+image:
+  url: "image\allende.png"

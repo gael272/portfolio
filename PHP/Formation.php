@@ -15,4 +15,8 @@ $data = yaml_parse_file('DB-YAML/formation.yaml');
     <?php else: ?>
         <p>Aucune formation disponible.</p>
     <?php endif; ?>
+
+    <?php if (isset($data['image']['url'])): ?>
+        <img src="<?php echo $data['image']['url']; ?>" alt="Image formation" />
+    <?php endif; ?>
 </section>
