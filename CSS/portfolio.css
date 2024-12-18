@@ -97,7 +97,7 @@ h2 {
     font-size: 2.2rem;
     margin-bottom: 1.5rem; 
     border-bottom: 2px solid #3B5B94;
-    display: inline-block;
+    display: block;
     z-index: 1;
     position: relative;
 }

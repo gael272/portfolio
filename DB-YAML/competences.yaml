@@ -3,15 +3,27 @@ domaines:
   - nom: Bureautique
     competences:
      - nom: Word
-       niveau: 100
+       niveau: A+
      - nom: Excel
-       niveau: 70
-  - nom: Réseau
+       niveau: B
+  - nom: Réseaux
     competences:
      - nom: Configuration de virtual machine
-       niveau: Non spécifié
+       niveau: A
      - nom: Configuration DHCP & APACHE
-       niveau: Non spécifié
+       niveau: A-
      - nom: Service WEB
-       niveau: Non spécifié
+       niveau: B+
+  - nom: Développement
+    competences: 
+     - nom: HTML
+       niveau: A
+     - nom: Javascript
+       niveau: C+
+     - nom: PHP 
+       niveau: C+
+     - nom: YAML
+       niveau: A
+     - nom: CSS
+       niveau: A
       
