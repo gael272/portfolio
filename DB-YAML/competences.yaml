@@ -3,7 +3,7 @@ domaines:
   - nom: Bureautique
     competences:
      - nom: Word
-       niveau: 100
+       niveau: A+
      - nom: Excel
        niveau: 70
   - nom: Réseau
