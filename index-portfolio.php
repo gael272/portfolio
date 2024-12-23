@@ -12,7 +12,7 @@ require_once("yaml/yaml.php");
 ?>
 
 <header>
-    <h1>Mon Portfolio</h1>
+    <h1>Portfolio</h1>
     <nav>
         <a href="#accueil">Accueil</a>
         <a href="#competences">Compétences</a>

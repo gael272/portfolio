@@ -1,29 +1,29 @@
 titre: Compétences
+description: Cette évaluation représente mon niveau actuel, basé sur les compétences acquises tant lors de la création de ce portfolio que durant ma formation en développement et en réseaux.
 domaines:
   - nom: Bureautique
     competences:
-     - nom: Word
+     - nom: WORD
        niveau: A+
-     - nom: Excel
+     - nom: EXCEL
        niveau: B
   - nom: Réseaux
     competences:
-     - nom: Configuration de virtual machine
+     - nom: VIRTUAL MACHINE
        niveau: A
-     - nom: Configuration DHCP & APACHE
-       niveau: A-
-     - nom: Service WEB
-       niveau: B+
+     - nom: SERVEUR LAMP
+       niveau: A+
+     - nom: SERVICE WEB & DNS
+       niveau: A
   - nom: Développement
     competences: 
      - nom: HTML
        niveau: A
-     - nom: Javascript
-       niveau: C+
+     - nom: JAVASCRIPT
+       niveau: C
      - nom: PHP 
-       niveau: C+
+       niveau: B+
      - nom: YAML
        niveau: A
      - nom: CSS
        niveau: A
-      

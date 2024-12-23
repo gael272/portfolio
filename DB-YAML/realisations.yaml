@@ -1,8 +1,12 @@
 realisations:
   titre: Réalisations
-  description: Voici mes projets.
+  description: Voici quelques-uns de mes projets, qui illustrent mes compétences en développement et en gestion de réseaux.
   projets:
     - titre: Projet 1
-      description: Description du premier projet.
+      description: Installation d'un service DNS sous linux
+      pdf: PDF\Procédure service DNS bind9 sous linux (1).pdf
+      image: image\Capture d’écran 2024-12-23 192011.png 
     - titre: Projet 2
-      description: Description du deuxième projet.
+      description: Reproduction d'une page web en HTML & CSS
+      pdf: PDF\webarena.pdf
+      image: image\Capture d’écran 2024-12-23 191603.png  

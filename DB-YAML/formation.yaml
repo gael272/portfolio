@@ -1,13 +1,25 @@
 formation:
   titre: Formation
-  description: Mon parcours académique et mes certifications.
+  description: Mon parcours académique et mes certifications m'ont permis de développer des compétences en gestion, comptabilité, systèmes d'information, cybersécurité, ainsi qu'en administration des réseaux et gestion de projets informatiques.
+  cv_pdf: PDF\CV Gaël GAUTIER.pdf (1).pdf  
   liste:
-    - titre: Bac STMG
+    - titre: BAC STMG
       etablissement: Lycée Salvador Allende
       annee: 2019-2022
+      description: Le BAC STMG, option mercatique, m'a permis d'acquérir des compétences solides en marketing, en gestion de la relation client et en analyse des besoins du marché pour élaborer des stratégies commerciales adaptées et efficaces.
+      image: image\allende.png
     - titre: BTS CG
       etablissement: Lycée Jean Rostand
       annee: 2023-2024
+      description: Le BTS Comptabilité et Gestion (CG) m'a formé à la gestion comptable et financière des entreprises, en me permettant de maîtriser les outils de gestion, l'analyse financière et la gestion des ressources humaines.
+      image: image\rostand.png
     - titre: BTS SIO
       etablissement: CaenSup
-      annee: 2024-2026 (en cours)
+      annee: 2024-2026
+      description: Le BTS Services Informatiques aux Organisations (SIO) me permettra de développer des compétences en gestion de projets informatiques, en administration des systèmes et réseaux, ainsi qu'en analyse des besoins des utilisateurs pour proposer des solutions adaptées.
+      image: image\logo-CaenSup-noir (1).jpg
+    - titre: Certification SecNum Académie
+      etablissement: ANSSI (Agence nationale de la sécurité des systèmes d'information)
+      annee: 2024
+      description: La certification SecNum Académie m'a permis d'approfondir mes connaissances en cybersécurité, en particulier en matière de sécurité des systèmes d'information, des réseaux et de la gestion des risques.
+      image: image\secnum.jpeg
