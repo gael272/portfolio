@@ -7,17 +7,16 @@ body {
     line-height: 1.6;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;  
-    align-items: center;  
+    justify-content: flex-start;
+    align-items: center;
     min-height: 100vh;
-    padding-top: 6rem; 
+    padding-top: 6rem; /* Ajusté pour éviter le chevauchement avec le header */
     width: 100%;
 }
 
-
 header {
-    background: rgba(255, 255, 255, 0.9); 
-    backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
     padding: 0.8rem 2rem;
     font-size: 1.3rem;
     font-weight: 500;
@@ -27,21 +26,19 @@ header {
     top: 0;
     left: 0;
     z-index: 10;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     height: 6rem;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-
 header .logo {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     flex-grow: 1;
 }
-
 
 header h1 {
     color: #333;
@@ -51,15 +48,13 @@ header h1 {
     letter-spacing: 1px;
 }
 
-
 nav {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     gap: 2rem;
-    flex-grow: 2; 
+    flex-grow: 2;
 }
-
 
 nav a {
     text-decoration: none;
@@ -69,17 +64,14 @@ nav a {
     transition: color 0.3s ease;
 }
 
-
 nav a:hover {
     color: #0071e3;
 }
 
-
 header.scrolled {
-    background: rgba(255, 255, 255, 0.95); 
+    background: rgba(255, 255, 255, 0.95);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
-
 
 .container {
     display: grid;
@@ -88,9 +80,8 @@ header.scrolled {
     padding: 2rem;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
-
 
 section {
     background: rgba(255, 255, 255, 0.8);
@@ -98,18 +89,16 @@ section {
     padding: 2rem;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin: 2rem auto; 
-    width: 100%; 
-    max-width: 900px; 
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 900px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
 
 section:hover {
     transform: translateY(-5px);
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
 }
-
 
 h2 {
     color: #333;
@@ -120,15 +109,14 @@ h2 {
     display: inline-block;
 }
 
-
 #competences {
     background-color: rgba(255, 255, 255, 0.8);
     color: #333;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    max-width: 900px; 
-    margin: 2rem auto; 
+    max-width: 900px;
+    margin: 2rem auto;
 }
 
 .competence-section {
@@ -177,7 +165,6 @@ h2 {
     background: linear-gradient(90deg, #00aaff, #0071e3);
 }
 
-
 .formation-item img {
     width: 100%;
     max-width: 200px;
@@ -187,7 +174,6 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 
 form {
     display: flex;
@@ -236,7 +222,6 @@ form button:hover {
     transform: scale(1.03);
 }
 
-
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -248,11 +233,19 @@ footer {
     border-top: 1px solid #eaeaea;
 }
 
-
 @media (max-width: 768px) {
+    body {
+        padding-top: 8rem; /* Augmenter le padding-top pour compenser la hauteur du header */
+    }
+
     header {
-        flex-direction: column;
-        align-items: center;
+        position: relative; /* Changer la position du header à relative sur mobile */
+        padding: 1rem;
+        height: auto; /* Permet au header de s'ajuster */
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Réduire la taille du titre sur mobile */
     }
 
     nav {
@@ -260,19 +253,27 @@ footer {
         gap: 1.5rem;
     }
 
-    h2 {
-        font-size: 1.8rem;
+    nav a {
+        font-size: 1.1rem;
     }
 
-    body {
-        padding: 1rem;
+    h2 {
+        font-size: 1.8rem;
     }
 
     section {
         padding: 1.5rem;
     }
-}
 
+    .container {
+        padding: 1rem;
+    }
+
+    form {
+        width: 90%;
+        max-width: 500px; /* Réduire la largeur du formulaire sur mobile */
+    }
+}
 
 hr {
     border: none;
@@ -283,7 +284,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .projet-image {
     width: 100%;
@@ -299,10 +299,10 @@ hr {
 
 .image-presentation {
     width: 100%;
-    max-width: 88px; 
-    height: auto; 
+    max-width: 88px;
+    height: auto;
     display: block;
-    margin: 20px auto; 
+    margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
