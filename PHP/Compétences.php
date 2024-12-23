@@ -1,5 +1,5 @@
 <?php
-$data = yaml_parse_file('DB-YAML\competences.yaml');
+$data = yaml_parse_file('DB-YAML/competences.yaml');
 ?>
 
 <section id="competences">
