@@ -6,7 +6,6 @@ $message = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars($_POST['name']);
     $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
-    $userMessage = htmlspecialchars($_POST['message']);
     $rgpd = isset($_POST['rgpd']);
     $captcha = $_POST['g-recaptcha-response'] ?? '';
 
@@ -15,27 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } elseif (!$email) {
         $message = "Veuillez fournir une adresse email valide.";
     } else {
-        // Validation reCAPTCHA
         $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$captcha");
         $responseKeys = json_decode($response, true);
 
         if ($responseKeys["success"] && $rgpd) {
-            // Préparation de l'envoi de l'email
-            $to = $data['contact']['email']; // L'email du destinataire dans le fichier YAML
-            $subject = "Nouveau message via le formulaire de contact";
-            $body = "Vous avez reçu un nouveau message via votre formulaire de contact :\n\n";
-            $body .= "Nom : $name\n";
-            $body .= "Email : $email\n\n";
-            $body .= "Message :\n$userMessage\n\n";
-            $headers = "From: $email\r\n";
-            $headers .= "Reply-To: $email\r\n";
-
-            // Envoi de l'email
-            if (mail($to, $subject, $body, $headers)) {
-                $message = "Merci, $name ! Votre message a été envoyé.";
-            } else {
-                $message = "Erreur : Impossible d'envoyer votre message. Veuillez réessayer plus tard.";
-            }
+            $message = "Merci, $name! Votre message a été envoyé.";
         } elseif (!$rgpd) {
             $message = "Veuillez accepter les conditions RGPD pour continuer.";
         } else {
