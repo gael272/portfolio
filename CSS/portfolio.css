@@ -319,3 +319,21 @@ hr {
     color: #005bb5;
 }
 
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Aligne verticalement la case à cocher et le texte */
+    gap: 0.5rem; /* Espace entre la case à cocher et le texte */
+    margin-bottom: 1rem; /* Espace sous le groupe checkbox */
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin: 0; /* Supprime les marges par défaut */
+    width: 1rem;
+    height: 1rem; /* Taille de la case à cocher */
+}
+
+.checkbox-container label {
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer; /* Change le curseur au survol pour indiquer que c'est cliquable */
+}
